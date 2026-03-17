@@ -1,4 +1,7 @@
-public class LHW5{
+// Design a Java program to calculate Sin and Cos values from a right-angled triangle.
+// Assume the values of a and b are 4.5 and 9.5 respectively. Finally, print the Sin and Cos values of angle A and angle B (SinA, CosA, SinB, CosB).
+
+public class LAB1HW5{
   public static void main(String [] args){
     double a = 4.5;
     double b = 9.5;
