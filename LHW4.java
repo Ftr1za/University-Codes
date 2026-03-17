@@ -1,8 +1,0 @@
-public class LHW4{
-  public static void main(String [] args){
-   int lenth = 10;
-   int width = 13;
-   double diagonal = Math.sqrt(Math.pow(10,2) + Math.pow(13,2));
-   System.out.println(diagonal);
-  }
-}
