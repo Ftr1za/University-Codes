@@ -1,0 +1,12 @@
+public class LHW5{
+  public static void main(String [] args){
+    double a = 4.5;
+    double b = 9.5;
+    double c = Math.sqrt( Math.pow(a ,2) + Math.pow(b ,2));
+    double SinA = a / c;
+    double SinB = b / c;
+    double CosA = b / c;
+    double CosB = a / c;
+    System.out.println("Sin(A)= " + SinA);
+  }
+}

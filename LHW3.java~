@@ -1,0 +1,7 @@
+public class LHW3{
+  public static void main(String [] args){
+   int s_id = 1000054943;
+   int last2 = s_id % 100;
+   System.out.println(last2);
+  }
+}
