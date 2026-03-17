@@ -7,7 +7,7 @@
 //Expected Output:
 //3456789 minutes is approximately 6 years and 210 days
 
-public class LHW1{
+public class LAB1HW1{
   public static void main(String [] args){
     int t_min =  3456789;
     int t_day = (t_min / 60)/24;
