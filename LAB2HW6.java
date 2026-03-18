@@ -1,6 +1,9 @@
+// Write a Java program that reads three numbers and prints "All numbers are equal" if all three numbers are equal, 
+// "All numbers are different" if all three numbers are different and "Neither all are equal nor different" otherwise.
+
 import java.util.Scanner;
 
-public class L2HW6 {
+public class LAB2HW6 {
   public static void main (String [] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Input the 1st number: ");
