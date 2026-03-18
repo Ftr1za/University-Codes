@@ -1,6 +1,11 @@
+// A triangle has 3 sides. Write a program which asks the users for input. Based on the input, your program should output whether it is an Equilateral, Isosceles or Scalene.
+// Equilateral triangle has three sides with equal length 
+// Isosceles triangle has two sides with equal length and another side is different
+// Scalene triangle has different lengths in each side
+
 import java.util.Scanner;
 
-public class L2HW4 {
+public class LAB2HW4 {
   public static void main (String [] args) {
     Scanner sc = new Scanner(System.in);
     int side1 = sc.nextInt();
