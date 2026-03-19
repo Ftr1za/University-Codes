@@ -1,3 +1,8 @@
+// In Hogwarts, apprentice wizards brew magic potions using glowing herbs and sparkling crystals collected from the Whispering Woods. 
+// You have a stash of H herbs and C crystals. Each successful potion requires exactly 3 herbs and 2 crystals. 
+// Brew as many potions as possible without running short mid-mix stop when you can't complete another full potion. 
+// After brewing, check the total potions: if even, the batch is perfectly balanced ("Stable Elixir"); if odd, it's unpredictably fizzy ("Volatile Brew"). Output the number of potions and the balance message.
+
 import java.util.Scanner;
 
 public class L3HW2{
