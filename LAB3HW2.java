@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class L3HW2{
+public class LAB3HW2{
   public static void main(String [] args){
     Scanner sc = new Scanner(System.in);
     System.out.println("Please Enter number of Herbs (H): ");
