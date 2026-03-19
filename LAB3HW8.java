@@ -1,6 +1,8 @@
+//Write a Java code that asks an integer as input from the user and takes that many integer inputs. Your task is to count how many numbers are non-negative and negative.
+
 import java.util.Scanner;
 
-public class L3HW8{
+public class LAB3HW8{
   public static void main(String [] args){
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter an integer:");
