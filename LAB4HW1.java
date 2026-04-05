@@ -1,6 +1,10 @@
+// You need to write a Java program that asks the user to input a starting number and an ending number. The program must find and display all Armstrong numbers within this range (inclusive).
+// An Armstrong number is a number whose digits’ values, each raised to the power of the total number of digits, add up to the number itself.
+
+
 import java.util.Scanner;
 
-public class LAB04HW1 {
+public class LAB4HW1 {
   public static void main (String [] args){
     Scanner input = new Scanner(System.in);
     System.out.print("Enter the starting number:");
