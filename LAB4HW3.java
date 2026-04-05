@@ -1,6 +1,15 @@
+// You need to write a Java program that asks the user to input the number of days (N). 
+// Then, for each day, input the sales of the 3 products.
+// For each day, calculate the total sales, apply the correct tax based on the total, and display the total sales including tax.
+
+// If the total sales for the day equal to or greater than 100, a 2% tax is added.
+// If the total sales equal to or greater than 200, a 5% tax is applied instead.
+// If the total sales equal to or greater than 500, a 10% tax is applied instead.
+
+
 import java.util.Scanner;
 
-public class LAB04HW3 {
+public class LAB4HW3 {
   public static void main(String [] args){
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter number of days: ");
