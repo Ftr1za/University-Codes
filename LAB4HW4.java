@@ -1,6 +1,12 @@
+// GymFit Elite uses an AI fitness system to calculate effective calorie burn per exercise with advanced rules. 
+// Your task is to write a java programme to calculate the average of earned calories. For each member, input the number of exercises and their raw calories. 
+// Each day a member can do the highest 3 exercises. 
+// If the calorie is greater than 350 then add 50% bonus, add 10% penalty to all if every exercise is less than 200, and give 50 calories flat bonus per exercise if the raw average is greater than 400. 
+// Now calculate the total calories earned and print the average calories earned a day.
+
 import java.util.Scanner;
 
-public class LAB04HW4 {
+public class LAB4HW4 {
   public static void main(String [] args){
     Scanner sc = new Scanner(System.in);
     System.out.println("Number of Members: ");
@@ -15,7 +21,7 @@ public class LAB04HW4 {
       
       if (exNum > 3){
         exNum =3;
-        System.out.printf("(Can’t do more than 3 exercise)\n\n");
+        System.out.printf("(Canâ€™t do more than 3 exercise)\n\n");
       }
       
       for (int k=1 ; k <= exNum ; k++){
