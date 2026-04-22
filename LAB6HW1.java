@@ -1,3 +1,14 @@
+// A secret meeting of agents is scheduled, and entry requires a 2-digit PIN. To keep the PIN confidential, the mission leader has hidden it inside a sentence. 
+//The rule is simple: the largest two-digit number present in the sentence will serve as the PIN.
+
+// You, being the only Java programmer in the team, are tasked with writing a Java program that:
+// ● Takes a sentence (a single line of text) as input from the user.
+// ● Scans the entire sentence to find all two-digit numbers (from 00 to 99) embedded within it.
+// ● Identifies the highest (maximum) two-digit number among them.
+// ● Outputs that number as the PIN.
+// ● If no two-digit number is found in the sentence, the program should output 0 as the default PIN.
+
+
 import java.util.Scanner;
 
 public class LAB6HW1{
