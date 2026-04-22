@@ -1,3 +1,11 @@
+// In the magical world of Harry Potter, the Sorting Hat wants to find the most
+// "powerful" (longest) spell name from several one word spells that students whisper
+// during the Sorting Ceremony. Each student whispers a spell one by one. 
+// The students keep whispering spells one by one until one of them shouts “stop”(case-sensitive), 
+// which signals the Sorting Hat to stop listening. However, some students are mischievous and add weird symbols, extra spaces, or uppercase letters to confuse the Sorting Hat.
+// The Sorting Hat will Ignore all non-letter characters (keep only uppercase letters and lowercase letters), then it will convert it to Upper case letters.
+// Find the longest spell name whispered and If two spell names are the same length, choose the first one whispered. Also, calculate the power level of the spell as the sum of ASCII values of its letters.
+
 import java.util.Scanner; 
 public class LAB6HW3{ 
   public static void main(String [] args){ 
